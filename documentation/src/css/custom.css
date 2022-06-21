@@ -1,0 +1,46 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Snowburst+One&display=swap");
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #4250af;
+  --ifm-color-primary-dark: #3b489d;
+  --ifm-color-primary-darker: #384495;
+  --ifm-color-primary-darkest: #2e387b;
+  --ifm-color-primary-light: #4d5bbc;
+  --ifm-color-primary-lighter: #5663bf;
+  --ifm-color-primary-lightest: #707cc9;
+  --ifm-background-color: #f6f8fe;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-color-primary: #c7ceff;
+  --ifm-color-primary-dark: #9aa6ff;
+  --ifm-color-primary-darker: #8392ff;
+  --ifm-color-primary-darkest: #3f57ff;
+  --ifm-color-primary-light: #f4f6ff;
+  --ifm-color-primary-lighter: #ffffff;
+  --ifm-color-primary-lightest: #ffffff;
+  --ifm-background-color: #1c1c1c;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+html {
+  font-family: "Work Sans", sans-serif;
+}
+
+.navbar__title {
+  font-family: "Snowburst One", cursive;
+  font-weight: bold;
+  font-size: 24px;
+  color: var(--ifm-color-primary);
+}
