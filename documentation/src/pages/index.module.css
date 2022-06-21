@@ -8,6 +8,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  background-color: #eaecf2;
 }
 
 @media screen and (max-width: 996px) {
@@ -22,6 +23,25 @@
   justify-content: center;
 }
 
-.navbar__title {
-  color: red;
+.heroTitle {
+  font-family: "Snowburst One", cursive;
+  font-weight: bold;
+  font-size: 56px;
+  color: #4250af;
+}
+
+.heroSubtitle {
+  color: rgb(27, 27, 27);
+  font-size: 20px;
+}
+
+.actionButton {
+  text-decoration: none;
+  color: #eaecf2;
+  background-color: #4250af;
+  padding: 16px;
+}
+
+.actionButton:hover {
+  color: white;
 }

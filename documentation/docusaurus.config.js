@@ -7,7 +7,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Immich",
-  tagline: "High performance open-source backup solution for photos and videos",
+  tagline:
+    "High performance self-hosted backup solution for photos and videos from your mobile phone",
   url: "https://immich.app",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -67,14 +68,15 @@ const config = {
             label: "GitHub",
             position: "right",
           },
-          {
-            type: "search",
-            position: "right",
-          },
         ],
       },
+      colorMode: {
+        defaultMode: "light",
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
       footer: {
-        style: "light",
+        style: "dark",
         links: [
           {
             title: "Docs",
@@ -104,7 +106,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Dedicated to my wife - Paulina Nguyen`,
+        copyright: `Dedicated to my wife and my childrens`,
       },
       prism: {
         theme: lightCodeTheme,
